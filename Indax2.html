@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кофейня</title>
+    <link rel="stylesheet" href="Stayle2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;700&display=swap">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            
+            <nav>
+                <div class="container">
+                    <div class="logo">
+                        Эспрессо 
+                        <span style="font-size: 14px; color: var(--color-latte); display: block;">с 2010 года Москва </span>
+                    </div>
+                    <ul class="menu-links">
+                        <li><a href="#">меню</a></li>
+                        <li><a href="#">о нас</a></li>
+                        <li><a href="#">связаться</a></li>
+                    </ul>
+                    <button class="btn-book btn-book-alt">Забронировать</button>
+                </div>
+            </nav>
+            
+            
+            <div class="hero-description">
+                <p>Каждая чашка - история вкуса. Мы обжариваем зёрна с трёх континентов, 
+                чтобы каждый глоток открывал новый мир. <strong>Традиция</strong>, <em>мастерство</em>, страсть.</p>
+            </div>
+            
+            <
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="#" class="btn">Смотреть меню</a>
+                <h1>→ свежая обжарка ежедневно</h1>
+            </div>
+            
+            <!-- Блок статистики -->
+            <div class="stats-container" style="margin-top: 60px;">
+                <div class="stat-item">
+                    <div class="start-num">47</div>
+                    <div class="start-label">Сортов зёрен</div>
+                </div>
+                <div class="stat-item">
+                    <div class="start-num">15 лет</div>
+                    <div class="start-label">Варим кофе</div>
+                </div>
+                <div class="stat-item">
+                    <div class="start-num">∞</div>
+                    <div class="start-label">Любви к кофе</div>
+                </div>
+            </div>
+            
+            <!-- Hero визуал с чашкой -->
+            <div class="hero-visual">
+                <div class="coffee-scene">
+                    <svg viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Пар -->
+                        <g opacity="0.7">
+                            <path class="steam-1" d="M130 95 Q125 75 135 60 Q140 45 130 30" stroke="#c8956c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                            <path class="steam-2" d="M160 90 Q155 70 165 55 Q170 38 158 22" stroke="#c8956c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                            <path class="steam-3" d="M190 95 Q185 75 195 60 Q200 45 190 28" stroke="#c8956c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                        </g>
+
+                        <!-- Блюдце -->
+                        <ellipse cx="160" cy="255" rx="120" ry="16" fill="#3d2314" stroke="#6b3a28" stroke-width="1"/>
+                        <ellipse cx="160" cy="248" rx="110" ry="12" fill="#2c1a0e"/>
+
+                        <!-- Чашка тело -->
+                        <path d="M90 145 Q85 230 160 240 Q235 230 230 145 Z" fill="#2c1a0e" stroke="#3d2314" stroke-width="1.5"/>
+
+                        <!-- Кофе поверхность -->
+                        <ellipse cx="160" cy="145" rx="70" ry="18" fill="#1a0e08"/>
+
+                        <!-- Кофейный рисунок (латте-арт) -->
+                        <ellipse cx="160" cy="143" rx="50" ry="13" fill="#3d2314" opacity="0.6"/>
+                        <path d="M135 143 Q160 125 185 143 Q160 155 135 143" fill="#a0622a" opacity="0.7"/>
+                        <ellipse cx="160" cy="143" rx="18" ry="6" fill="#c8956c" opacity="0.5"/>
+                        <circle cx="160" cy="143" r="6" fill="#e8d5b7" opacity="0.3"/>
+
+                        <!-- Ободок чашки -->
+                        <ellipse cx="160" cy="145" rx="70" ry="18" fill="none" stroke="#6b3a28" stroke-width="2"/>
+
+                        <!-- Ручка -->
+                        <path d="M228 155 Q265 155 265 185 Q265 215 228 215" fill="none" stroke="#3d2314" stroke-width="14" stroke-linecap="round"/>
+                        <path d="M228 155 Q258 155 258 185 Q258 215 228 215" fill="none" stroke="#6b3a28" stroke-width="5" stroke-linecap="round"/>
+
+                        <!-- Блик на чашке -->
+                        <path d="M100 160 Q105 190 108 220" stroke="rgba(232,213,183,0.15)" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+                        <!-- Декоративные звёздочки -->
+                        <circle cx="60" cy="80" r="2" fill="#c9a96e" opacity="0.6"/>
+                        <circle cx="270" cy="120" r="1.5" fill="#c9a96e" opacity="0.4"/>
+                        <circle cx="45" cy="200" r="1" fill="#c9a96e" opacity="0.3"/>
+                        <circle cx="280" cy="70" r="2.5" fill="#c9a96e" opacity="0.25"/>
+                    </svg>
+                </div>
+            </div> 
+        </div> 
+        <h5>наше меню</h5>
+        <h6>От классического эспрессо до авторских сезонных позиций — найдите свой идеальный кофе</h6>
+    </header> 
+    
+    <div class="menu-grid">
+        <div class="menu-card">
+            <span class="card-icon">☕</span>
+            <div class="card-name">Эспрессо</div>
+            <p class="card-desc">Концентрированный, с плотной крема. Основа всего кофейного искусства — 7 г идеально обжаренных зёрен.</p>
+            <div class="card-price">280 ₽ <span>/ 30 мл</span></div>
+        </div>
+
+        <div class="menu-card">
+            <span class="card-icon">🥛</span>
+            <div class="card-name">Флэт Уайт</div>
+            <p class="card-desc">Насыщенный, с бархатистой текстурой. Для тех, кто ценит баланс и плотность кофейного вкуса.</p>
+            <div class="card-price">340 ₽ <span>/ 200 мл</span></div>
+        </div>
+
+        <div class="menu-card">
+            <span class="card-icon">🌿</span>
+            <div class="card-name">Матча Латте</div>
+            <p class="card-desc">Персональный, травянистый, с ореховым послевкусием. Японский чай матча с нежным молоком.</p>
+            <div class="card-price">390 ₽ <span>/ 250 мл</span></div>
+        </div>
+
+        <div class="menu-card">
+            <span class="card-icon">🍦</span>
+            <div class="card-name">Аффогато</div>
+            <p class="card-desc">Горячий эспрессо с шариком ванильного мороженого. Контраст температур и вкусов, от которого замирает сердце.</p>
+            <div class="card-price">350 ₽ <span>/ 150 мл</span></div>
+        </div>
+
+        <div class="menu-card">
+            <span class="card-icon">🧊</span>
+            <div class="card-name">Колд Брю</div>
+            <p class="card-desc">18 часов холодного заваривания. Низкая кислотность, мягкий вкус без горечи.</p>
+            <div class="card-price">320 ₽ <span>/ 300 мл</span></div>
+        </div>
+
+        <div class="menu-card">
+            <span class="card-icon">🍊</span>
+            <div class="card-name">Эспрессо-тоник</div>
+            <p class="card-desc">Бодрящий микс эспрессо с тоником. Контраст температур и вкусов, освежающий кофейный коктейль.</p>
+            <div class="card-price">330 ₽ <span>/ 250 мл</span></div>
+        </div>
+    </div>
+
+    
+    <div class="about-block">
+        <div class="about-text">Зёрна <em>с душой</em>
+            <p>Мы начали с одной маленькой ростерни в 2010 году. Сегодня мы работаем напрямую с фермерами в Эфиопии, Колумбии, Гватемале и Индонезии — строя честные отношения, которые отражаются в каждой чашке.</p>
+        </div>
+        <div class="about-visual">
+            <div class="beans-grid">
+                <div class="bean-card">
+                    <div class="bean-origin">Эфиопия </div>
+                    <div class="bean-name">Иргачефф</div>
+                    <div class="bean-note">Табак • цитрус • жасмин</div>
+                </div>
+                <div class="bean-card">
+                    <div class="bean-origin">Индонезия</div>
+                    <div class="bean-name">Суматра</div>
+                    <div class="bean-note">земляника • табак • темный шоколад</div>
+                </div>
+                <div class="bean-card">
+                    <div class="bean-origin">Гватемала</div>
+                    <div class="bean-name">Антигуа</div>
+                    <div class="bean-note">коричневый сахар • специи • слива</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <section class="form-section">
+        <div class="form-container">
+            <div class="section-header">
+                <div class="section-tag">Бронирование</div>
+                <h2 class="section-title">Забронировать столик</h2>
+                <p class="section-subtitle">Мы рады принять вас. Оставьте заявку и мы свяжемся с вами в течение часа</p>
+            </div>
+            <form action="">
+                <div class="form-row">
+                    <div class="field-wrap">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" name="name" id="name" placeholder="Александр" required>
+                    </div>
+                    <div class="field-wrap">
+                        <label for="phone">Ваш телефон</label>
+                        <input type="tel" name="phone" id="phone" placeholder="+7 (999) 123-45-67" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="field-wrap">
+                        <label for="date">Дата</label>
+                        <input type="date" name="date" id="date" required>
+                    </div>
+                    <div class="field-wrap">
+                        <label for="guests">Кол-во гостей</label>
+                        <select name="guests" id="guests">
+                            <option value="1">1 гость</option>
+                            <option value="2">2 гостя</option>
+                            <option value="3">3 гостя</option>
+                            <option value="4">4 гостя</option>
+                            <option value="5+">5 и более</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="field-wrap">
+                    <label for="message">Особые пожелания</label>
+                    <textarea name="message" id="message" placeholder="Аллергии, предпочтения по напиткам, особые пожелания..."></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <div class="footer-logo">Эс <span>прессо</span></div>
+                    <p>Кофейня с 2010 года в Москве</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.391 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.862-.525-2.049-1.714-1.033-1.01-1.49-.948-1.744-.948-.352 0-.457.103-.457.594v1.565c0 .418-.134.666-1.228.666-1.808 0-3.813-1.097-5.224-3.142C5.101 11.625 4.5 9.449 4.5 8.985c0-.254.102-.491.594-.491h1.744c.443 0 .61.2.78.67.862 2.49 2.303 4.676 2.898 4.676.22 0 .322-.102.322-.661V10.14c-.068-1.186-.695-1.287-.695-1.71 0-.204.169-.407.44-.407h2.744c.373 0 .508.2.508.643v3.473c0 .373.169.508.271.508.22 0 .407-.135.813-.542 1.254-1.406 2.151-3.574 2.151-3.574.119-.254.322-.491.763-.491h1.744c.525 0 .644.271.525.643-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.779 1.203 1.253.745.847 1.32 1.558 1.473 2.049.17.49-.085.745-.576.745z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Наша кофейня</h4>
+                    <ul>
+                        <li><a href="#">Наше меню</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Обжарка</a></li>
+                        <li><a href="#">Магазин зерен</a></li>
+                        <li><a href="#">Мастер-классы</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Наша кофейня</h4>
+                    <ul>
+                        <li><a href="#">Наше меню</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Обжарка</a></li>
+                        <li><a href="#">Магазин зерен</a></li>
+                        <li><a href="#">Мастер-классы</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© Логинов Д.А 2026 год.</p>
+            </div>
+        </div>
+    </footer>
+</body> 
+</html>
