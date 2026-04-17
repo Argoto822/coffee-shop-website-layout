@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Кофейня «Эспрессо» — Искусство Кофе</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav id="up">
+  <div class="container">
+    <div class="nav-logo">Эс<span>прессо</span></div>
+    <ul class="nav-links">
+      <li><a href="#menu">Меню</a></li>
+      <li><a href="#about">О нас</a></li>
+      <li><a href="#form">Связаться</a></li>
+    </ul>
+    <a href="#form" class="nav-cta">Забронировать</a>
+  </div>
+</nav>
+
+
+<a href="#up" class="scroll-to-top">⬆️</a>
+    <div class="hero">
+      <div class="container">
+      <div class="hero-text">
+        <div class="hero-label">С 2010 года · Москва</div>
+        <h1 class="hero-title">
+          Каждая чашка —<br>
+          <em>история вкуса</em>
+        </h1>
+        <p class="hero-desc">
+          Мы обжариваем зёрна с трёх континентов, чтобы каждый глоток 
+          открывал новый мир. Традиция, мастерство, страсть.
+        </p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn-primary">Смотреть меню</a>
+          <span class="hero-secondary">→ Свежая обжарка ежедневно</span>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <div class="stat-num">47</div>
+            <div class="stat-label">Сортов зёрен</div>
+          </div>
+          <div>
+            <div class="stat-num">15</div>
+            <div class="stat-label">Лет опыта</div>
+          </div>
+          <div>
+            <div class="stat-num">∞</div>
+            <div class="stat-label">Любви к кофе</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="coffee-scene">
+          <svg viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+            <!-- Пар -->
+            <g opacity="0.7">
+              <path class="steam-1" d="M130 95 Q125 75 135 60 Q140 45 130 30" stroke="#c8956c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+              <path class="steam-2" d="M160 90 Q155 70 165 55 Q170 38 158 22" stroke="#c8956c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+              <path class="steam-3" d="M190 95 Q185 75 195 60 Q200 45 190 28" stroke="#c8956c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+            </g>
+
+            <!-- Блюдце -->
+            <ellipse cx="160" cy="255" rx="120" ry="16" fill="#3d2314" stroke="#6b3a28" stroke-width="1"/>
+            <ellipse cx="160" cy="248" rx="110" ry="12" fill="#2c1a0e"/>
+
+            <!-- Чашка тело -->
+            <path d="M90 145 Q85 230 160 240 Q235 230 230 145 Z" fill="#2c1a0e" stroke="#3d2314" stroke-width="1.5"/>
+
+            <!-- Кофе поверхность -->
+            <ellipse cx="160" cy="145" rx="70" ry="18" fill="#1a0e08"/>
+
+            <!-- Кофейный рисунок (латте-арт) -->
+            <ellipse cx="160" cy="143" rx="50" ry="13" fill="#3d2314" opacity="0.6"/>
+            <path d="M135 143 Q160 125 185 143 Q160 155 135 143" fill="#a0622a" opacity="0.7"/>
+            <ellipse cx="160" cy="143" rx="18" ry="6" fill="#c8956c" opacity="0.5"/>
+            <circle cx="160" cy="143" r="6" fill="#e8d5b7" opacity="0.3"/>
+
+            <!-- Ободок чашки -->
+            <ellipse cx="160" cy="145" rx="70" ry="18" fill="none" stroke="#6b3a28" stroke-width="2"/>
+
+            <!-- Ручка -->
+            <path d="M228 155 Q265 155 265 185 Q265 215 228 215" fill="none" stroke="#3d2314" stroke-width="14" stroke-linecap="round"/>
+            <path d="M228 155 Q258 155 258 185 Q258 215 228 215" fill="none" stroke="#6b3a28" stroke-width="5" stroke-linecap="round"/>
+
+            <!-- Блик на чашке -->
+            <path d="M100 160 Q105 190 108 220" stroke="rgba(232,213,183,0.15)" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+            <!-- Декоративные звёздочки -->
+            <circle cx="60" cy="80" r="2" fill="#c9a96e" opacity="0.6"/>
+            <circle cx="270" cy="120" r="1.5" fill="#c9a96e" opacity="0.4"/>
+            <circle cx="45" cy="200" r="1" fill="#c9a96e" opacity="0.3"/>
+            <circle cx="280" cy="70" r="2.5" fill="#c9a96e" opacity="0.25"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="menu">
+    <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Наше меню</div>
+      <h2 class="section-title">Избранные <em>напитки</em></h2>
+      <p class="section-subtitle">От классического эспрессо до авторских сезонных позиций — найдите свой идеальный кофе</p>
+    </div>
+
+    <div class="filter-tabs reveal">
+      <button class="filter-btn active" data-filter="all">Все напитки</button>
+      <button class="filter-btn" data-filter="coffee">Кофе</button>
+      <button class="filter-btn" data-filter="cold">Холодные</button>
+      <button class="filter-btn" data-filter="special">Особенные</button>
+    </div>
+
+    <div class="menu-grid">
+      <div class="menu-card reveal reveal-delay-1" data-category="coffee">
+        <span class="card-icon">☕</span>
+        <div class="card-name">Эспрессо</div>
+        <p class="card-desc">Концентрированный, насыщенный, с плотной крема. Основа всего кофейного искусства — 7 г идеально обжаренных зёрен.</p>
+        <div class="card-price">280 ₽ <span>/ 30 мл</span></div>
+      </div>
+
+      <div class="menu-card reveal reveal-delay-2" data-category="coffee">
+        <span class="card-icon">🥛</span>
+        <div class="card-name">Флэт Уайт</div>
+        <p class="card-desc">Двойной эспрессо с бархатистым молоком, искусно вспененным до шёлковой текстуры. Для тех, кто ценит баланс.</p>
+        <div class="card-price">340 ₽ <span>/ 150 мл</span></div>
+      </div>
+
+      <div class="menu-card reveal reveal-delay-3" data-category="special">
+        <span class="card-icon">🌿</span>
+        <div class="card-name">Матча Латте</div>
+        <p class="card-desc">Японский церемониальный чай первого урожая с овсяным молоком. Мягко, травянисто, с ореховым послевкусием.</p>
+        <div class="card-price">390 ₽ <span>/ 250 мл</span></div>
+      </div>
+
+      <div class="menu-card reveal reveal-delay-4" data-category="special">
+        <span class="card-icon">🍦</span>
+        <div class="card-name">Аффогато</div>
+        <p class="card-desc">Шар ванильного джелато, залитый горячим двойным эспрессо. Контраст температур и вкусов, от которого замирает сердце.</p>
+        <div class="card-price">420 ₽ <span>/ порция</span></div>
+      </div>
+
+      <div class="menu-card reveal reveal-delay-5" data-category="cold">
+        <span class="card-icon">🧊</span>
+        <div class="card-name">Колд Брю</div>
+        <p class="card-desc">18 часов холодного заваривания. Низкая кислотность, натуральная сладость, шоколадные ноты. Пьётся как лучший в мире сок.</p>
+        <div class="card-price">360 ₽ <span>/ 300 мл</span></div>
+      </div>
+
+      <div class="menu-card reveal reveal-delay-6" data-category="cold">
+        <span class="card-icon">🍊</span>
+        <div class="card-name">Эспрессо-тоник</div>
+        <p class="card-desc">Двойной эспрессо над тоником со льдом и цедрой апельсина. Освежающий, дерзкий, неожиданно гармоничный.</p>
+        <div class="card-price">380 ₽ <span>/ 250 мл</span></div>
+      </div>
+    </div>
+
+    <!-- О нас -->
+    <div class="about-block reveal" id="about">
+      <div class="about-text">
+        <div class="section-header">
+          <div class="section-tag">Наша история</div>
+          <h2 class="section-title">Зёрна <em>с душой</em></h2>
+        </div>
+        <p>Мы начали с одной маленькой ростерни в 2010 году. Сегодня мы работаем напрямую с фермерами в Эфиопии, Колумбии, Гватемале и Индонезии — строя честные отношения, которые отражаются в каждой чашке.</p>
+        <p>Наши обжарщики проходят путь в годы, прежде чем взять в руки барабан. Каждый профиль обжарки разрабатывается месяцами — так, чтобы зерно раскрыло лучшее, что в нём заложила природа.</p>
+      </div>
+
+      <div class="about-visual">
+        <div class="beans-grid">
+          <div class="bean-card reveal reveal-delay-1">
+            <div class="bean-origin">Эфиопия</div>
+            <div class="bean-name">Йиргачефф</div>
+            <div class="bean-note">черника · жасмин · цитрус</div>
+          </div>
+          <div class="bean-card reveal reveal-delay-2">
+            <div class="bean-origin">Колумбия</div>
+            <div class="bean-name">Уила</div>
+            <div class="bean-note">карамель · орех · шоколад</div>
+          </div>
+          <div class="bean-card reveal reveal-delay-3">
+            <div class="bean-origin">Индонезия</div>
+            <div class="bean-name">Суматра</div>
+            <div class="bean-note">земля · табак · тёмный шоколад</div>
+          </div>
+          <div class="bean-card reveal reveal-delay-4">
+            <div class="bean-origin">Гватемала</div>
+            <div class="bean-name">Антигуа</div>
+            <div class="bean-note">коричневый сахар · специи · слива</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="form-section" id="form">
+    <div class="form-container">
+      <div class="section-header">
+        <div class="section-tag">Напишите нам</div>
+        <h2 class="section-title">Забронируйте <em>столик</em></h2>
+        <p class="section-subtitle">Мы рады принять вас. Оставьте заявку и мы свяжемся с вами в течение часа</p>
+      </div>
+
+      <form action="#" method="post">
+        <div class="form-row">
+          <div class="field-wrap">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" name="name" placeholder="Александр" required />
+          </div>
+          <div class="field-wrap">
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" name="phone" placeholder="+7 (999) 000-00-00" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field-wrap">
+            <label for="date">Дата визита</label>
+            <input type="date" id="date" name="date" />
+          </div>
+          <div class="field-wrap">
+            <label for="guests">Кол-во гостей</label>
+            <select id="guests" name="guests">
+              <option value="1">1 гость</option>
+              <option value="2" selected>2 гостя</option>
+              <option value="3">3 гостя</option>
+              <option value="4">4 гостя</option>
+              <option value="5+">5 и более</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field-wrap">
+          <label for="message">Пожелания</label>
+          <textarea id="message" name="message" placeholder="Особые пожелания, аллергии, предпочтения по напиткам..."></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Отправить заявку</button>
+        <p class="form-note">Мы не передаём ваши данные третьим лицам</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="nav-logo">Эс<span>прессо</span></div>
+        <p>Место, где время замедляется, а каждая чашка становится маленьким ритуалом. Приходите — мы всегда рады.</p>
+        <div class="social-links">
+          <!-- Instagram -->
+          <a href="#" class="social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+          </a>
+          <!-- Telegram -->
+          <a href="#" class="social-link" aria-label="Telegram">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+            </svg>
+          </a>
+          <!-- VK -->
+          <a href="#" class="social-link" aria-label="ВКонтакте">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.391 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.862-.525-2.049-1.714-1.033-1.01-1.49-.948-1.744-.948-.352 0-.457.103-.457.594v1.565c0 .418-.134.666-1.228.666-1.808 0-3.813-1.097-5.224-3.142C5.101 11.625 4.5 9.449 4.5 8.985c0-.254.102-.491.594-.491h1.744c.443 0 .61.2.78.67.862 2.49 2.303 4.676 2.898 4.676.22 0 .322-.102.322-.661V10.14c-.068-1.186-.695-1.287-.695-1.71 0-.204.169-.407.44-.407h2.744c.373 0 .508.2.508.643v3.473c0 .373.169.508.271.508.22 0 .407-.135.813-.542 1.254-1.406 2.151-3.574 2.151-3.574.119-.254.322-.491.763-.491h1.744c.525 0 .644.271.525.643-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.779 1.203 1.253.745.847 1.32 1.558 1.473 2.049.17.49-.085.745-.576.745z"/>
+            </svg>
+          </a>
+          <!-- YouTube -->
+          <a href="#" class="social-link" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/>
+            </svg>
+          </a>
+          <!-- Pinterest -->
+          <a href="#" class="social-link" aria-label="Pinterest">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Кофейня</h4>
+        <ul>
+          <li><a href="#">Наше меню</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Обжарка</a></li>
+          <li><a href="#">Магазин зёрен</a></li>
+          <li><a href="#">Мастер-классы</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Контакты</h4>
+        <ul>
+          <li><a href="#">Москва, ул. Арбат, 24</a></li>
+          <li><a href="#">Ежедневно 8:00–22:00</a></li>
+          <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+          <li><a href=""><span class="__cf_email__" data-cfemail="">[email&#160;protected]</span></a></li>
+        </ul>
+      </div>
+    </div><!-- /.footer-inner -->
+
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2025 Эспрессо. Все права защищены.</div>
+      <div class="footer-motto">«Жизнь коротка — пей хороший кофе»</div>
+    </div>
+    </div><!-- /.container -->
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="menuModal">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Закрыть">✕</button>
+
+      <div class="modal-tag">Наше меню</div>
+      <h2 class="modal-title" id="modalTitle">Всё, что мы <em>готовим</em></h2>
+
+      <div class="modal-menu">
+        <div class="modal-item">
+          <div class="modal-item-icon">☕</div>
+          <div class="modal-item-info">
+            <div class="modal-item-name">Эспрессо</div>
+            <div class="modal-item-desc">Концентрированный, насыщенный, с плотной крема</div>
+          </div>
+          <div class="modal-item-right">
+            <div class="modal-item-price">280 ₽</div>
+            <div class="modal-item-vol">30 мл</div>
+          </div>
+        </div>
+
+        <div class="modal-item">
+          <div class="modal-item-icon">🥛</div>
+          <div class="modal-item-info">
+            <div class="modal-item-name">Флэт Уайт</div>
+            <div class="modal-item-desc">Двойной эспрессо с бархатистым молоком</div>
+          </div>
+          <div class="modal-item-right">
+            <div class="modal-item-price">340 ₽</div>
+            <div class="modal-item-vol">150 мл</div>
+          </div>
+        </div>
+
+        <div class="modal-divider"></div>
+
+        <div class="modal-item">
+          <div class="modal-item-icon">🌿</div>
+          <div class="modal-item-info">
+            <div class="modal-item-name">Матча Латте</div>
+            <div class="modal-item-desc">Японский церемониальный чай с овсяным молоком</div>
+          </div>
+          <div class="modal-item-right">
+            <div class="modal-item-price">390 ₽</div>
+            <div class="modal-item-vol">250 мл</div>
+          </div>
+        </div>
+
+        <div class="modal-item">
+          <div class="modal-item-icon">🍦</div>
+          <div class="modal-item-info">
+            <div class="modal-item-name">Аффогато</div>
+            <div class="modal-item-desc">Джелато с горячим двойным эспрессо</div>
+          </div>
+          <div class="modal-item-right">
+            <div class="modal-item-price">420 ₽</div>
+            <div class="modal-item-vol">порция</div>
+          </div>
+        </div>
+
+        <div class="modal-divider"></div>
+
+        <div class="modal-item">
+          <div class="modal-item-icon">🧊</div>
+          <div class="modal-item-info">
+            <div class="modal-item-name">Колд Брю</div>
+            <div class="modal-item-desc">18 часов холодного заваривания</div>
+          </div>
+          <div class="modal-item-right">
+            <div class="modal-item-price">360 ₽</div>
+            <div class="modal-item-vol">300 мл</div>
+          </div>
+        </div>
+
+        <div class="modal-item">
+          <div class="modal-item-icon">🍊</div>
+          <div class="modal-item-info">
+            <div class="modal-item-name">Эспрессо-тоник</div>
+            <div class="modal-item-desc">Двойной эспрессо над тоником с цедрой апельсина</div>
+          </div>
+          <div class="modal-item-right">
+            <div class="modal-item-price">380 ₽</div>
+            <div class="modal-item-vol">250 мл</div>
+          </div>
+        </div>
+      </div>
+
+      <button class="modal-footer-btn" id="modalBookBtn">Забронировать столик</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
